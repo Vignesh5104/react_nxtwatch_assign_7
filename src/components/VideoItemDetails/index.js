@@ -46,6 +46,10 @@ class VideoItemDetails extends Component {
     description: videoData.video_details.description,
   })
 
+  onRetry = () => {
+    this.getVideoItemDetails()
+  }
+
   getVideoItemDetails = async () => {
     this.setState({apiStatus: videoItemDetailsApiStatusConstant.inProgress})
 

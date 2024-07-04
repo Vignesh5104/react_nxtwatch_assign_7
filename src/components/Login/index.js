@@ -21,8 +21,8 @@ import {
 
 class Login extends Component {
   state = {
-    inputUserName: '',
-    inputPassword: '',
+    inputUserName: 'rahul',
+    inputPassword: 'rahul@2021',
     showPassword: false,
     errorMsg: '',
     ShowErrorMsg: false,
@@ -114,7 +114,7 @@ class Login extends Component {
                 </Label>
                 <Input
                   id="Username"
-                  placeholder="Username"
+                  placeholder="rahul"
                   type="username"
                   onChange={this.onChangeUsername}
                   value={inputUserName}
@@ -126,7 +126,7 @@ class Login extends Component {
                 </Label>
                 <Input
                   id="Password"
-                  placeholder="Password"
+                  placeholder="rahul@2021"
                   type={showPassword ? 'username' : 'password'}
                   onChange={this.onChangePassword}
                   value={inputPassword}

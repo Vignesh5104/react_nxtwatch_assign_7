@@ -20,8 +20,14 @@ import {
 const HomeVideoCard = props => {
   const {videoDetails} = props
 
-  const {id, title, channel, publishedAt, thumbnailUrl, viewCount} =
-    videoDetails
+  const {
+    id,
+    title,
+    channel,
+    publishedAt,
+    thumbnailUrl,
+    viewCount,
+  } = videoDetails
 
   const videoPublishedDate = formatDistanceToNow(new Date(publishedAt))
 

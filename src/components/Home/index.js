@@ -199,6 +199,7 @@ class Home extends Component {
                       onClick={this.onClickSearchButton}
                       lightBgColor={lightBgColor}
                       data-testid="searchButton"
+                      type="button"
                     >
                       <BiSearch size="23" color="rgb(99, 99, 99)" />
                     </SearchButton>
